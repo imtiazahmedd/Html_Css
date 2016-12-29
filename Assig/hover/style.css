@@ -1,0 +1,21 @@
+div.nav{
+height: 50px;
+width: 100%;
+background-color: green;    
+}
+
+ul>li{
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    background-color: white;
+    margin: 10px;
+    
+}
+li:hover{
+    background-color: red;
+   
+}
+li:hover{
+    adfjakldfslkadsfjalkfdjsadklfsj
+}

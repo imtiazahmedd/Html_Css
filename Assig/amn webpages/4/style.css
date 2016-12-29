@@ -1,0 +1,211 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #272822;
+}
+
+#mainBody {
+	margin: 2% 0% 0% 23%;
+	width: 54%;
+	height: 640px;
+	background-color: lightblue;
+}
+
+#header {
+	float: left;
+	width: 100%;
+	height: 45px;
+	background-color: #DF1212;
+}
+
+#logo{
+	float: left;
+	width: 45%;
+	height: 45px;
+	background-color: #DF1212;
+}
+
+#home {
+	text-align: center;
+	float: left;
+	width: 10%;
+	height: 32px;
+	padding: 13px 0px 0px 0px;
+	background-color: #DF1212;
+}
+
+#about {
+	text-align: center;
+	float: left;
+	width: 10%;
+	height: 32px;
+	padding: 13px 0px 0px 0px;
+	background-color: #DF1212;
+}
+
+#services {
+	text-align: center;
+	float: left;
+	width: 10%;
+	height: 32px;
+	padding: 13px 0px 0px 0px;
+	background-color: #DF1212;
+}
+#contacts {
+	text-align: center;
+	float: left;
+	width: 10%;
+	height: 32px;
+	padding: 13px 0px 0px 0px;
+	background-color: o#DF1212;
+}
+#gallery {
+	text-align: center;
+	float: left;
+	width: 10%;
+	height: 32px;
+	padding: 13px 0px 0px 0px;
+	background-color: #DF1212;
+}
+
+
+
+#home:hover {
+	background-color: black;
+}
+#about:hover {
+	background-color: black;
+}
+#services:hover {
+	background-color: black;
+}
+#contacts:hover {
+	background-color: black;
+}
+#gallery:hover {
+	background-color: black;
+}
+
+
+
+#home a {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+}
+
+#about a {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+}
+
+#services a {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+}
+
+#contacts a {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+}
+
+#gallery a {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+}
+
+#divImg {
+	float: left;
+	width: 100%;
+	height: 300px;
+	background-color: green;
+}
+
+#divImg img {
+	width: 100%;
+	height: 300px;
+}
+
+#contentOne {
+	float: left;
+	width: 63%;
+	height: 210px;
+	background-color: #DF1212;
+}
+#contentIn {
+	margin: 20px 0px 0px 120px;
+	width: 70%;
+	height: 170px;
+	background-color: #DF1212;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	margin: 6px 0px 0px 0px;
+	color: white;
+	font-size: 12px;
+}
+
+#divButton {
+	padding-top: 7px;
+	padding-left: 7px;
+	float: left;
+	width: 28%;
+	height: 28px;
+	background-color: white;
+	color: black;
+}
+
+#contentImg {
+	float: left;
+	width: 37%;
+	height: 210px;
+	background-color: yellow;
+}
+
+#contentImg img {
+	width: 100%;
+	height: 210px;
+}
+
+#footer1 {
+	float: left;
+	width: 50%;
+	height: 85px;
+	background-color: #19191B;
+}
+
+#footer2 {
+	float: left;
+	width: 50%;
+	height: 85px;
+	background-color: #2D2D2F;
+}
+
+#footer1 h3 {
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+#footer2 h3 {
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}

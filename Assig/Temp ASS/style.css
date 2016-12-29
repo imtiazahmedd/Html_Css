@@ -1,0 +1,156 @@
+body{
+    background-color: #000000;
+}
+.one{
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    background-color: #000000;
+}
+ul li{
+    display: inline-block;
+    margin: 1em;
+    font-weight: bold;
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.two{
+    background-image: url("./images/bg-adbox.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15em;
+    padding: 45px;
+}
+.inside{
+    width: 15em;
+    height: 17em; 
+}
+.head{
+    font-family: serif;
+    color: #ffffff;
+}
+.para{
+    color: #ffffff ;
+}
+.three{
+    height: 1%;
+    background-color: #808080;
+}
+.paraa{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 2em;
+    color: darkslategray;  
+    margin: auto;
+}
+.four{
+    height: 4%;
+    width: 100%;
+    background-color: #0e405d;
+    }
+}
+.paraaa{
+    height: 10em;
+    width: 26em;
+    color: #ffffff;
+    margin-left: 2em;
+    display: inline-block;
+}
+.img{
+    float: right;
+    background-image: url("./images/spacecraft.jpg");
+    background-repeat: no-repeat;
+    height:9em;
+    width: 15em;
+    margin: 1em;
+    color: white;
+}
+.five{
+    height: 8%;
+    width: 100%;
+    background-color: #ffffff;  
+}
+.img1{
+    display: inline-block;
+    padding: 1.0em;
+}
+.img2{
+    display: inline-block;
+    padding: 1.0em;
+}
+.img3{
+    display: inline-block;
+    padding: 1.0em;
+}
+.img4{
+    display: inline-block;
+   padding: 1.0em;
+}
+#id1{
+    width: 9em;
+}
+#id2{
+     width: 9em;
+}
+#id3{
+    width: 9em;
+}
+#id4{
+    width: 9em;
+}
+.six{
+    width: 100%;
+    height: 8%;
+    background-color: #0e405d;
+}
+.cls1{
+    height: 5%;
+    width: 10em;
+    display: inline-block;
+}
+.cls2{
+    height: 5%;
+    width: 10em;
+    display: inline-block;
+}
+.cls3{
+    height: 5%;
+    width: 27em;
+    display: inline-block;
+}
+.heading{
+    text-align: center;
+    color: #add8e6;
+}
+.btn{
+    background-color: #6495ed;
+    margin-left: 4em;
+    border: none;
+    width: 10em;
+    height: 2em;
+    color: #ffffff;
+    border-radius: 0.3em;
+}
+.head4{
+    text-align: center;
+    color: #ffffff;
+}
+.g{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+.onee{
+    color: #ffffff;
+    font-size: 0.6em;
+}
+#btn3{
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 0.3em;
+    color: #ffffff;
+    height: 1.9em;
+    width: 5.5em;
+}

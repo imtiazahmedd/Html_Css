@@ -1,0 +1,187 @@
+* {
+margin: 0px;
+padding: 0px;	
+}
+
+
+body {
+	background-color: #837D81;
+}
+
+
+#mainBody {
+	width: 80%;
+	height: 768px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 15px;
+	border: 0px;
+	border-radius: 10px;
+}
+
+
+#nav {
+	margin: 3px 2px 0px 2px;
+	width: 802px;
+	background-color: red;
+	border: 0px;
+	border-radius: 10px;
+}
+
+
+#nav ul {
+	list-style-type: none;
+}
+
+
+#nav ul li {
+	color: red;
+	display: inline-block;
+	background-color: red;
+	border: 0px;
+	border-radius: 10px;
+	padding: 10px 50px 10px 50px;
+}
+
+#nav ul li a {
+	color: black;
+	font-family: arial;
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	color: white;
+}
+
+
+#divImg {
+	margin: 2px 2px 0px 2px;
+	border: 0px;
+	border-radius: 10px;
+}
+
+
+img {
+	width: 100%;
+	border: 0px;
+	border-radius: 10px;
+}
+
+#asideLeft {
+	float: left;
+	width: 250px;
+	height: 300px;
+	background-color: silver;
+	border: 0px;
+	border-radius: 10px;
+	margin: 0px 2px 0px 2px;
+}
+
+#asideRight {
+	float: right;
+	width: 535px;
+	height: 296px;
+	background-color: white;
+	border: 2px solid silver;
+	border-radius: 12px;
+	margin: 0px 2px 0px 2px;
+}
+
+h2 {
+	text-align: center;
+	font-family: arial;
+	background-color: red;
+	border-radius: 10px 10px 0px 0px;
+	padding: 3px 0px 3px 0px;
+}
+
+#asideLeft ul {
+	list-style-type: none;
+}
+
+#asideLeft ul li {
+	margin: 20px 0px 0px 15px;
+	line-height: 15px;
+	font-family: arial;
+}
+
+
+aside p {
+	margin: 2px 13px 0px 7px;
+	padding: 10px;
+	font-family: calibri;
+}
+
+#footer {
+	margin: 0 auto;
+	background-color: silver;
+	width: 80%;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 0px;
+	border-radius: 10px;
+	padding: 20px 0px;
+}
+
+footer p {
+	text-align: center;
+	font-family: calibri;
+	font-size: 15px;
+}
+
+#go {
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+
+{
+	#mainBody {
+	width: 290px;
+	height: 1112px;
+	}
+
+	#nav {
+	width: 286px;
+	}
+
+
+	img {
+	width: 100%;
+	border: 0px;
+	border-radius: 10px;
+	}
+
+
+	#asideLeft {
+		float: left;
+		width: 286px;
+		height: 300px;
+		background-color: silver;
+		border: 0px;
+		border-radius: 10px;
+		margin: 0px 2px 0px 2px;
+	}
+
+	#asideRight {
+		float: right;
+		width: 284px;
+		height: 460px;
+		background-color: white;
+		border: 2px solid silver;
+		border-radius: 12px;
+		margin: 2px 1px 0px 1px;
+	}
+
+	h2 {
+		font-size: 100%;
+	}
+
+}

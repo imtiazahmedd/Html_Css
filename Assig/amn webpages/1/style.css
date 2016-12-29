@@ -1,0 +1,372 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-color: #EBC071;
+}
+
+
+
+.body {
+	margin: 0 auto;
+	width: 98%;
+}
+
+
+
+.divimg {
+	background-image: url(images/main14.png);
+	width: 100%;
+	height: 216px;
+	background-color: #FF994C;
+}
+
+
+
+.main {
+	border-radius: 10px 10px 10px 10px;
+	margin: 30px auto;
+	width: 95%;
+	height: auto;
+	background-color: orange;
+}
+
+
+.divimg nav {
+	width: 70%;
+    float: right;
+    margin: 180px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+	background-color: #006600;
+}
+
+.divimg nav ul {
+	list-style: none;
+}
+
+.divimg nav ul li {
+	display: inline-block;
+}
+
+.divimg nav ul li a {
+	color: #EBCC8B;
+	font-family: arial;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.divimg nav ul li a:hover {
+	color: #AB3333;
+}
+
+
+
+.mainContent {
+	background-image: url(images/line.png);
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 480px;
+}
+
+
+
+.asideLeft {
+	width: 22%;
+	height: 440px;
+	float: left;
+	background-color: #EBC071;
+	margin: 10px 0px 0px 0px;
+	border: 1px solid #EBC071;
+	border-radius: 0em 2em 2em 0em;
+	padding: 0px 14px 14px 20px;
+	line-height: 23px;
+}
+
+
+.asideRight {
+	width: 64%;
+	height: 384px;
+	float: right;
+	background-color: #EBC071;
+	margin: 10px 0px 0px 0px;
+	border: 1px solid  #EBC071;
+	border-radius: 2em 0em 0em 2em;
+	padding: 35px;
+	line-height: 23px;
+}
+
+
+
+#lifont {
+	font-size: 90%;
+}
+
+
+
+.underLeft {
+	margin: 0px 0px 0px 0px;
+	width: 200px;
+	height: 130px;
+	background-color: #EBC071;
+}
+
+
+
+.underRight {
+	margin: 0px 0px 0px 30px;
+	width: 580px;
+	height: 130px;
+	background-color: #EBC071;
+}
+
+
+
+#fontsize {
+	font-size: 100%;
+}
+
+
+h3 {
+	font-family: verdana;
+	font-size: 100%;
+}
+
+
+
+#rightH3 {
+	color: #960000;
+}
+
+
+
+.fontarial {
+	font-family: arial;
+}
+
+
+
+#green {
+	color: green;
+	font-family: arial;
+}
+
+
+
+#yellow {
+	color: yellow;
+}
+
+
+
+.footer {
+	width: 100%;
+	height: 70px;
+	background-color: #EBC071;
+	padding: 6px 0px;
+}
+
+
+
+.greenline {
+	font-size: 10px;
+	width: 100%;
+	height: 15px;
+	background-color: green;
+}
+
+
+
+#footerCopyright {
+	text-align: center;
+	font-family: verdana;
+	font-size: 100%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.body {
+		width: 90%;
+		background-color: red;
+	}
+
+
+	.main {
+	border-radius: 10px 10px 10px 10px;
+	margin: 30px auto;
+	width: 95%;
+	height: auto;
+	background-color: orange;
+    }
+
+
+
+
+    .divimg nav {
+    	width: 100%;
+    	height: 133px;
+        float: right;
+        margin: 200px 0px 0px 0px;
+    	padding: 5px 0px 0px 0px;
+    	background-color: #006600;
+    }    
+
+
+
+    .divimg nav ul {
+    	padding: 0px 0px 0px 0px;
+    }
+
+
+
+    .divimg nav ul li {
+    	width: 100%;
+    	height: 26px;
+    	margin: 0 auto;
+    	text-align: center;
+
+    }    
+
+    .divimg nav ul li a {
+    	color: #EBCC8B;
+    	font-family: arial;
+    	padding: 5px 15px;
+    	text-decoration: none;
+    	font-size: 17px;
+
+    }    
+
+    .divimg nav ul li:hover {
+    	background-color: green; padding: 0px 0px 0px 0px;
+    }
+
+
+
+
+.mainContent {
+	background-image: url(images/line2.png);
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 1060px;
+}
+
+
+
+.asideLeft {
+	width: 89%;
+	height: 440px;
+	float: left;
+	background-color: #EBCC8B;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid #EBC071;
+	border-radius: 0em 0em 0em 0em;
+	padding: 0px 14px 14px 20px;
+	line-height: 23px;
+}
+
+
+.asideRight {
+	width: 77%;
+	height: 400px;
+	float: left;
+	background-color: #EBC071;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid black;
+	border-radius: 0em 0em 0em 0em;
+	padding: 35px;
+	line-height: 23px;
+}
+
+
+
+.underLeft {
+	font-size: 90%;
+	line-height: 150%;
+	margin: 0px 0px 0px 0px;
+	width: 200px;
+	height: 120px;
+	background-color: #EBCC8B;
+}
+
+
+
+.underRight {
+	line-height: 130%;
+	margin: 0px 0px 0px 8px;
+	font-size: 80%;
+	width: 110%;
+	height: 160px;
+	background-color: #EBC071;
+}
+
+
+#fontsize {
+	line-height: 130%;
+	font-size: 90%;
+}
+
+h3 {
+	font-family: verdana;
+	font-size: 100%;
+}
+
+
+
+#rightH3 {
+	color: #960000;
+}
+
+
+
+.fontarial {
+	font-family: arial;
+}
+
+
+
+#green {
+	color: green;
+	font-family: arial;
+}
+
+
+
+#yellow {
+	color: yellow;
+}
+
+
+
+.footer {
+	width: 100%;
+	height: 70px;
+	background-color: #EBC071;
+	padding: 6px 0px;
+}
+
+
+
+.greenline {
+	font-size: 10px;
+	width: 100%;
+	height: 8px;
+	background-color: green;
+}
+
+
+
+#footerCopyright {
+	text-align: center;
+	font-family: verdana;
+	font-size: 70%;
+}

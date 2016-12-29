@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.first{
+  
+   background-color: lightblue;
+   height: 90px;
+   float: left;
+   width: 100%;
+
+}
+.second{
+    background-color: red;
+    height: 320px;
+    float: left;
+    width: 100%;
+    
+}
+.third{
+    background-color: gray;
+    height: 75px;
+    float: left;
+    width: 100%;
+    margin-top: 172px;
+}
+
+    
+
+.new{
+    margin: 2% 0% 0% 35%;
+    margin-left: 450px;
+}
+
+.new1{
+    height: 50px;
+    width: 700px;
+    margin-left: 230px;
+    border: solid 1px;
+}
+.ae{
+    margin-left: 42px;
+    margin-bottom: 30px;
+}
+
+#af{
+    margin-left: 35px;
+    margin-top: 18px;
+   
+    
+}
+
+#ag{
+    margin-left: 35px;
+}
+
+
+.abc{
+    margin-left:727px;
+    margin-bottom:150px;
+    
+}
+
+.butn1{
+    height: 40px;
+    width: 280px;
+    margin-bottom: 10px;
+    margin-left: 290px;
+}
+
+.butn2{
+    height: 40px;
+    width: 300px;
+    
+}
+
+.a{
+    float: left;
+    
+    
+}
+
+.b{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    float: right;
+    margin-top: 22px;
+    margin-right:50px;
+    
+}
+
+
+
+.div{
+    width: 40%;
+    height: 70px;
+    background-color: lightcyan;
+    float: right;
+    line-height: 70px;
+}
+
+.cls{
+    margin-top: 10px;
+    
+}
+
+#im{
+    float: right;
+    margin-top: 8px;
+    margin-right: 280px;
+}
+
+
+
+.inz{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60px;
+}
+
+.inz>.input{
+    width: 80%;
+    height: inherit;
+    border: none;
+}
+inz>.input:focus{
+    border: none;
+}
+
+
+.inz>.input-icon{
+    float: right;
+}

@@ -1,0 +1,33 @@
+
+
+#div23 {
+    background-image: url("./images/c.png");
+    float: left;
+    margin-left: 450px;
+  width: 360px;
+  height: 130px;
+   background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+.five{
+   float: left;
+   margin-left: 450px;
+   padding: 30px;
+   border: solid 1px black;
+   
+}
+.pak{
+    
+   margin-top: 100px;
+   color: blue;
+   
+}

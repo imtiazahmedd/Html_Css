@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.maincontainer{
+    position: fixed fixed center;
+    height: 500px;
+    border: double black;
+    
+}
+div.container{
+    height: 470px;
+    width: 65%;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+.logoo{
+    height: 80px;
+    width: 80px;
+    margin-left: 240px;
+}
+div.nav{
+    border-top: 4px solid black;
+    border-bottom: 2px solid grey;
+}
+
+  div.nav ul a{
+      text-decoration: none;
+      padding: 17px 0px;
+  }
+ 
+.imag{
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
+div.paragra{
+    border: 1px solid black;
+    width: 65%;
+    padding: 20px;
+    margin: 0px auto;
+}
+div.nav ul li{
+    display: inline;
+    margin: 20px;
+}
