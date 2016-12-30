@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chapter 8</title>
+</head>
+<body>
+    <form>
+    <p>
+        username:
+        <input type="text"name="username"size="15"maxlength="30"/>
+    </p>
+    <p>
+        password:
+        <input type="password"name="password"size="15"maxlength="30"/>
+    </p>
+    <p>
+        Message:
+        <textarea name="message" cols="25"rows="10"></textarea>
+    </p>
+    <p>
+        <input type="radio"name="first"value="laptop"/>laptop
+        <input type="radio"name="first"value="ipod"/ checked="checked">ipod
+        <input type="radio"name="first"value="computer"/>computer
+    </p>
+    <p>
+        <input type="checkbox"name="second"value="laptop"checked="checked"/>laptop
+        <input type="checkbox"name="second"value="ipod"/>ipod
+        <input type="checkbox"name="second"value="computer"/>computer
+    </p>
+    <p>
+        <select name="devices">
+            <option value="laptop">laptop</option>
+            <option value="ipod">ipod</option>
+            <option value="computer">computer</option>            
+        </select>
+    </p>
+    <p>
+    <select name="devices" multiple="multiple">
+        <option value="laptop">laptop</option>
+        <option value="ipod">ipod</option>
+        <option value="computer">computer</option>
+        <option value="led">led</option>
+        <option value="tablet">tablet</option>
+    </select>
+    </p>
+    <input type="file"value="file input"/>
+    <input type="submit"value="upload"/>
+    <br>
+    <input type="text"name="email"/>
+    <br>
+    <input type="submit"value="upload"/>
+    <br><br>
+    <input type="text"name="email"/>
+    <br><br>
+    <input type="image" src="./b.jpg"alt="animage" height="40"width="80"/>
+    <br><br>
+    <button><img src="./b.jpg" alt="animage" width="20px"height="10px">Add</button>
+    <input type="hidden"name="bookmark"/>
+    <br><br>
+    <label>Age:<input type="text"name="age"/></label>
+    <br>
+    Gender:
+    <label><input type="radio"name="gender"value="male"/>male</label>
+    <label><input type="radio"name="gender" value="female"/>female</label>
+    <br><br><br><br>
+    <label>Age:<input type="text"name="age"/>
+    Gender:
+    <input type="radio"id="female"name="gender" value="f"/>
+    <br>
+    <label for="female">female</label>
+    
+    <input type="radio"id="male"name="gender"value="m"/>
+    
+    <label for="male">male</label>
+ 
+<button> <input type="image"src="./b.jpg"width="20"height="15"/>first</button>
+ <input type="hidden"name="animage"/>
+ <br><br>
+ 
+    <label>Age<input type="text"name="age"/></label>
+    <br>
+    Gender: <input type="radio"id="female" name="gender" value="f" checked="checked"/>
+    <label for="female">female</label>
+    <input type="radio" id="male"name="gender"value="m"/>
+    <label for="male">Male</label>
+    <br><br>
+    <fieldset>
+        <legend>contact detail</legend>
+        <label>Email:
+            <br>
+            <input type="text"name="email"maxlength="25"size="20"/>
+        </label>
+        <br>
+        <label>    Mobile:
+            <br>
+            <input type="text"name="mobile"maxlength="15"size="20"/>
+        </label>
+        <br>
+        <label> Telephone:
+            <br>
+            <input type="text"name="telephone"maxlength="15"size="20"/>
+        </label>
+    </fieldset>
+    
+   username: <input type="text"name="username" required="required"/>
+    <br>
+   password: <input type="password"name="password" required="required"/>
+   <br>
+   <input type="submit"value="imtiaz"/>
+   <br><br>
+   <label>Departure Date:<input type="date"name="date"/></label>
+   <input type="submit"value="submit date"/>
+  <br><br>
+  <p>
+      please enter your email address:
+  </p>
+  <input type="url"name="email"/>
+  <input type="submit"value="submit"/>
+  <br>
+  <p>Search:</p>
+  <input type="search"name="search"/>
+  <input type="submit"value="search"/>
+     </form>
+     <p id="one">reach here</p>
+</body>
+</html>

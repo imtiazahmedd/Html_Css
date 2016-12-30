@@ -1,0 +1,10 @@
+div>img{
+    width: 300px;
+    height: 150px;
+}
+.slide{
+    width: 800px;
+    margin-left: 250px;
+    border: 2px solid green;
+    background-color: lightseagreen;
+}

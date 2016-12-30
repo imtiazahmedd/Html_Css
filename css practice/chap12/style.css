@@ -1,0 +1,22 @@
+h1{
+    font-size: 10em;
+   text-shadow: -4px -4px 0px blue , -7px -7px 0px red , -10px -10px 0px green, -13px -13px 0px lightslategrey;
+}
+
+
+p.one::first-line{
+    font-size: 100px;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: black;
+}
+a:focus{
+    color: lightslategray;
+}

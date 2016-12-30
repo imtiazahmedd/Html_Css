@@ -1,0 +1,23 @@
+p[class]
+{
+    font-size: 300%;
+}
+p[class="two"]{
+    color: blue;
+}
+p[class~="three"]{
+    color: red;
+}
+p[class^="f"]{
+    
+    color:green;
+       
+    }
+p[class$="e"]{
+    color: gold;
+}
+
+p[class*="i"]{
+    color: cadetblue;
+    font-size: 400%;
+}

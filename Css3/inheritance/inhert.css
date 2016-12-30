@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 70px
+}
+.page{
+    border: 2px solid;
+    color:red;
+    padding: inherit;
+    color: inherit;
+}
